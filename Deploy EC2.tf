@@ -4,7 +4,7 @@ provider "aws" {
   region     = "ap-southeast-2"
 }
 
-resource "aws_instance" "example" {
+resource "aws_instance" "myt2micro  " {
   count         = 2
   ami           = "ami-02d039674ab9ba947"
   instance_type = "t2.micro"
